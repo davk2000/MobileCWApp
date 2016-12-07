@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- main map layout providing all three location markers and change map view<!- -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".mcMapActivity" >
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    android:name="com.google.android.gms.maps.MapFragment"
+    android:id="@+id/map"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>
+
+    <RadioGroup
+    android:id="@+id/radio_group_list_selector"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="#80000000"
+    android:orientation="horizontal"
+    android:padding="4dp" >
+
+    <RadioButton
+    android:id="@+id/rdoNormal"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:gravity="center_horizontal|center_vertical"
+    android:text="Normal" />
+
+    <View
+    android:id="@+id/VerticalLine"
+    android:layout_width="1dip"
+    android:layout_height="match_parent"
+    android:background="#aaa" />
+
+    <RadioButton
+    android:id="@+id/rdoHybrid"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:gravity="center_horizontal|center_vertical"
+    android:text="Hybrid" />
+
+
+    <View
+    android:id="@+id/VerticalLine1"
+    android:layout_width="1dip"
+    android:layout_height="match_parent"
+    android:background="#aaa" />
+
+    <RadioButton
+    android:id="@+id/rdoSatellite"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:gravity="center_horizontal|center_vertical"
+    android:text="Satellite" />
+    <View
+    android:id="@+id/VerticalLine2"
+    android:layout_width="1dip"
+    android:layout_height="match_parent"
+    android:background="#aaa" />
+
+
+
+    <RadioButton
+    android:id="@+id/rdoTerrain"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:gravity="center_horizontal|center_vertical"
+    android:text="Terrain" />
+</RadioGroup>
+
+    </FrameLayout>

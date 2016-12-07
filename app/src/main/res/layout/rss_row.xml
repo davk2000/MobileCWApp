@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout used for each item row within listview<!- -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativelay"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:src="@drawable/weathericon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/txttitle"
+        android:id="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/txttitle"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true">
+    </TextView>
+
+</RelativeLayout>

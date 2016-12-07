@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MobileCWApp</string>
+    <string name="action_settings">Saved Preference</string>
+    <string name="action_settings2">Map</string>
+    <string name="action_settings3">Weather Forecast</string>
+    <string name="action_settings4">Piechart</string>
+    <string name="action_settings5">Location Details</string>
+    <string name="action_settings6">Exit</string>
+    <string name="dialog_About">This app allows you to access BBC Weather 3 day forecast via RSS feed, google maps of all available locations (includes changing map view), Piechart displaying total populations (including sensor), pre-populated database for location details and submit requests for additional locations to be entered</string>
+    <string name="dialog_About_OK_btn">Ok</string>
+</resources>

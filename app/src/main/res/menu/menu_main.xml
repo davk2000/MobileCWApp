@@ -1,0 +1,39 @@
+<!-- stores the each item for the action bar and settings menu<!- -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.dav.mobilecwapp.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings" />
+    <item
+        android:id="@+id/action_settings2"
+        android:orderInCategory="100"
+        android:title="@string/action_settings2" />
+
+    <item
+        android:id="@+id/action_settings3"
+        android:orderInCategory="100"
+        android:title="@string/action_settings3" />
+    <item
+        android:id="@+id/action_settings4"
+        android:orderInCategory="100"
+        android:title="@string/action_settings4" />
+    <item
+        android:id="@+id/action_settings5"
+        android:orderInCategory="100"
+        android:title="@string/action_settings5" />
+    <item
+        android:id="@+id/action_settings6"
+        android:orderInCategory="100"
+        android:title="@string/action_settings6" />
+
+    <item android:id="@+id/about"
+        android:icon="@drawable/ic_about"
+        app:showAsAction="ifRoom|withText"
+
+        android:title="About Dialog" />
+
+
+</menu>

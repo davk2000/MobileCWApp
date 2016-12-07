@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- provides spinner for accessing weather forecast and requests shortcut<!- -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Location Option:"
+        android:layout_marginBottom="5dp"/>
+
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/spinner"/>
+
+    <Button
+        android:text="Submit"
+        android:layout_marginTop="70dip"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:background="@drawable/buttonshape"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/button10" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dip"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="If you wish to request additional locations to be added to this app you can submit your requests below"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/textView9" />
+
+        <Button
+            android:text="Requests"
+            android:layout_marginTop="10dip"
+            android:layout_width="270dp"
+            android:layout_height="60dp"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:background="@drawable/buttonshape"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/button20" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(Write to Database)"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

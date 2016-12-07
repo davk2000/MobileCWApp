@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- layout for the all the buttons in the main menu screen<!- -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background"
+    tools:context="com.example.dav.mobilecwapp.MainActivityFragment"
+    tools:showIn="@layout/activity_main">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BBC Weather App"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="RSS Feed, Saved User Preference, Map etc"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button5"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView6" />
+
+    <TextView
+        android:text="Draw to Canvas and Accelerometer (Sensor)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_below="@+id/button19"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView8" />
+
+
+    <Button
+        android:text="Map"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:background="@drawable/buttonshape"
+        android:id="@+id/button2"
+        android:layout_below="@+id/textView8"
+        android:layout_alignStart="@+id/button19" />
+
+    <TextView
+        android:text="Displays Prepopulated Database and used in Map"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView7"
+        android:layout_below="@+id/button3"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Google Maps, Database and change map view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView10"
+        android:textStyle="bold"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Location Details"
+        android:textAlignment="center"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:background="@drawable/buttonshape"
+        android:id="@+id/button3"
+        android:layout_below="@+id/textView6"
+        android:layout_alignStart="@+id/button5" />
+
+    <Button
+        android:text="Pie chart"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:background="@drawable/buttonshape"
+        android:id="@+id/button19"
+        android:layout_below="@+id/textView7"
+        android:layout_alignStart="@+id/button3" />
+
+    <Button
+        android:text="3 Day Weather Forecast"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:id="@+id/button5"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/buttonshape"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Exit"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:background="@drawable/buttonshape"
+        android:id="@+id/button4"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/button2" />
+
+
+</RelativeLayout>
